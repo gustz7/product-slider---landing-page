@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dev club store</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">GustDev Store</div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Contatos</li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <main class="container">
+            <div class="tech-circle">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="arrows">
+                    <button class="arrow-btn" id="prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
+                            class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                            <path
+                                d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+                        </svg>
+
+                    </button>
+                    <button class="arrow-btn" id="next">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
+                            class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                            <path
+                                d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="indicators">
+                    <div class="numbers">01</div>
+                    <div class="dots">
+                        <div class="dot active"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="list">
+                <div class="item active">
+                    <div class="product-img">
+                        <img src="./img/apple-watch.png" alt="Apple Watch">
+
+                    </div>
+                    <div class="content">
+                        <p class="product-tag">Novo Lançamento</p>
+                        <p class="product-name">Apple Watch Series 10</p>
+                        <p class="description">Apple Watch Series 10 é um smartwatch equipado com chip de alto
+                            desempenho e tela OLED Always-On de alta resolução. Possui sensores avançados para
+                            monitoramento de frequência cardíaca, ECG, SpO₂ e atividades físicas, além de GPS integrado.
+
+                        </p>
+                        <button class="btn"> Saiba Mais</button>
+                    </div>
+
+                </div>
+
+                <div class="item">
+                    <div class="product-img">
+                        <img src="./img/air-pods.png" alt="Air Pods Max">
+
+                    </div>
+                    <div class="content">
+                        <p class="product-tag">Som Premium</p>
+                        <p class="product-name">AirPods Max 10</p>
+                        <p class="description">AirPods Max oferece som de alta fidelidade, Cancelamento Ativo de Ruído e
+                            áudio espacial para uma experiência imersiva. Com design premium e integração perfeita ao
+                            ecossistema Apple, é ideal para quem busca desempenho e sofisticação.
+                        </p>
+                        <button class="btn"> Saiba Mais</button>
+                    </div>
+
+
+                </div>
+
+                <div class="item">
+                    <div class="product-img">
+                        <img src="./img/vision-pro.png" alt="Vision Pro">
+
+                    </div>
+                    <div class="content">
+                        <p class="product-tag">Alta performace</p>
+                        <p class="product-name">Apple Vision Pro</p>
+                        <p class="description">Apple Vision Pro é um headset de realidade mista que combina realidade
+                            aumentada e virtual com altíssima resolução e processamento avançado. Equipado com o chip R1
+                            e integração ao ecossistema Apple.
+                        </p>
+                        <button class="btn"> Saiba Mais</button>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+    </div>
+
+</body>
+<script src="scripts.js" defer></script>
+
+</html>
